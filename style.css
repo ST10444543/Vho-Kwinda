@@ -1,0 +1,133 @@
+/* General Styles */
+body {
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f0f2f5;
+    color: #444;
+    line-height: 1.6;
+}
+
+/* Header */
+header {
+    background-color: #1a1b1b;
+    color: #fff;
+    padding: 30px 0;
+    text-align: center;
+    border-bottom: 4px solid #004a99;
+}
+
+header .logo {
+    width: 25%;
+    height: 15%;
+    margin-right: 10px;
+    vertical-align: middle;
+}
+
+/* Navigation */
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    background-color: #004a99;
+    text-align: center;
+}
+
+nav ul li {
+    display: inline-block;
+    margin-right: 20px;
+}
+
+nav ul li:last-child {
+    margin-right: 0;
+}
+
+nav ul li a {
+    color: #fff;
+    padding: 15px 25px;
+    text-decoration: none;
+    font-size: 18px;
+    transition: background-color 0.3s ease;
+}
+
+nav ul li a:hover {
+    background-color: #242525;
+    border-radius: 5px;
+}
+
+/* Main Content */
+main {
+    padding: 50px 20px;
+    max-width: 1200px;
+    margin: 0 auto;
+    background-color: #fff;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05);
+    border-radius: 10px;
+}
+
+h2, h3 {
+    color: #004a99;
+    margin-bottom: 20px;
+    font-weight: 700;
+}
+
+p {
+    font-size: 16px;
+    margin-bottom: 20px;
+}
+
+/* Form Styles */
+form {
+    background-color: #fff;
+    padding: 25px;
+    border-radius: 10px;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1);
+    margin-bottom: 50px;
+}
+
+input, textarea {
+    width: 100%;
+    padding: 15px;
+    margin: 15px 0;
+    border-radius: 8px;
+    border: 1px solid #ccc;
+    font-size: 16px;
+    transition: border 0.3s ease;
+}
+
+input:focus, textarea:focus {
+    border-color: #0066cc;
+    outline: none;
+    box-shadow: 0 0 8px rgba(0, 102, 204, 0.1);
+}
+
+button {
+    background-color: #0066cc;
+    color: #fff;
+    padding: 15px 30px;
+    font-size: 16px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #004a99;
+}
+
+/* Footer */
+footer {
+    background-color: #1c1c1d;
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+}
+
+footer p {
+    margin: 0;
+    font-size: 14px;
+}

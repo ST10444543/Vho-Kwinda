@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Contact Vho Kwinda Motor Mechanic & Towing">
+    <meta name="keywords" content="Contact, Motor Mechanic, Towing Services">
+    <title>Contact Us - Vho Kwinda</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+</head>
+<body>
+    <!-- Header Section -->
+    <header>
+        <img src="images/logo.png" alt="Vho Kwinda Logo" class="logo">
+        <h1>Contact Us</h1>
+        <p><strong>Get in touch with Vho Kwinda Motor Mechanic & Towing</strong></p>
+    </header>
+
+    <!-- Navigation Section -->
+    <nav>
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="engine-services.html">Engine Services</a></li>
+            <li><a href="body-services.html">Body Services</a></li>
+            <li><a href="additional-services.html">Additional Services</a></li>
+            <li><a href="contact.html">Contact Us</a></li>
+        </ul>
+    </nav>
+
+    <!-- Main Content Section -->
+    <main>
+        <section>
+            <h2>Contact Form</h2>
+            <form action="submit_contact.php" method="POST">
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" required>
+
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+
+                <label for="message">Message:</label>
+                <textarea id="message" name="message" rows="4" required></textarea>
+
+                <button type="submit" id="submit-btn">Send Message</button>
+            </form>
+        </section>
+
+        <section>
+            <h2>Contact Details</h2>
+            <p><strong>Phone Number:</strong> <a href="tel:+27763240287">+27 76 324 0287</a></p>
+            <p><strong>Location:</strong> Tshilungoma, Thohoyandou, 0950</p>
+        </section>
+    </main>
+
+    <!-- Footer Section -->
+    <footer>
+        <p>&copy; 2024 Vho Kwinda Motor Mechanic & Towing. All rights reserved.</p>
+    </footer>
+</body>
+</html>
